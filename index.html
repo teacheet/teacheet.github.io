@@ -4,7 +4,6 @@
 <head>
 	<meta charset="utf-8">
 	<title>hello world!</title>
-	<link rel="stylesheet" media="all" href="css/reset.css" />
 	<style>
 		body {
 		font:normal 12px '나눔고딕', nanumgothic , Arial, sans-serif;
@@ -23,22 +22,33 @@
 		li {list-style:none;}
 		a{text-decoration:none; color:black;}
 		em{font-style: normal;}
-
-		.wrap > h1{font-size:30px;}
+		body{background-color: antiquewhite}
+		.wrap{padding:0 15%;overflow: hidden;}
+		.wrap > h1{font-size:30px;text-align: center;margin:30px 0;}
 		.wrap > div{margin-top:20px;}
-		.wrap div{font-size:20px;}
-		.wrap div img {height: 200px;}
+		.wrap div{font-size:20px;float: left;}
+		.wrap div h3{text-align: center;}
+		.wrap > div + div{margin-left:20px;}
+		.wrap div a{overflow: hidden;display: block;width:230px;position: relative;height: 200px;}
+		.wrap div img {position: absolute;left:50%;top:0;transform: translateX(-50%);}
 	</style>
 </head>
 <body>
 	<div class="wrap">
-		<h1>나의 이야기</h1>
+		<h1>MY PORTFOLIO STORY </h1>		
 		<div>
-			<h3>snowbird</h3>
+			<h3>SPORTS TOTO</h3>
 			<a href="https://teacheet.github.io/snowbird/">
+				<img src="images/TOTO.jpg"/>
+			</a>
+		</div>
+		<div>
+			<h3>SNOWBIRD</h3>
+			<a href="https://teacheet.github.io/toto/">
 				<img src="images/Summer_Skiing_Matt_AP6I4266_ChrisSegal.jpeg"/>
 			</a>
 		</div>
+
 	</div>
 </body>
 </html>
