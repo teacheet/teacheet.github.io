@@ -2,11 +2,11 @@ window.onload = function (){
     var htmlEl = document.querySelector("html");
     var headerEl = document.querySelector("header");
     var navEl = document.querySelector("nav");
-    var videoEl = document.querySelector(".frogdesign_ani > video");
-    var imgEls = document.querySelectorAll(".frogdesign_slider > div");
+    var videoEl = document.querySelector(".frogdesign-ani > video");
+    var imgEls = document.querySelectorAll(".frogdesign-slider > div");
     var btn_leftEl = document.querySelector(".btn.left");
     var btn_rightEl = document.querySelector(".btn.right");
-    var btn_dotsEls = document.querySelectorAll(".btn_dot > div");
+    var btn_dotsEls = document.querySelectorAll(".btn-dot > div");
     var afterValue = 0;
     var sliderCount = 0;
 
