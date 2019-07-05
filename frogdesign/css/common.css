@@ -116,12 +116,11 @@ header .main-menu li sub{display: none;}
 .veena-sonwalkar .explanation p{margin-top: 37px;font-size: 20px;line-height: 25px;letter-spacing: -1px;color: white;}
 
 /* frog-plan */
-.frog-plan {position: relative;max-height: 753px;margin:0 -50px;margin-top: 90px;height: 52.291666vw;background-color: white;padding-top: 1px;box-sizing: border-box;padding-bottom: 1px;}
-.frog-plan img{margin: 0 auto;display: block;height: 100%;/*! margin-top: -25px; */}
+.frog-plan {position: relative;max-height: 753px;margin:0 -50px;margin-top: 90px;height: 52.291666vw;padding-top: 1px;box-sizing: border-box;padding-bottom: 1px;}
+.frog-plan img{margin: 0 auto;display: block;height: 100%;margin-top: -25px;margin-bottom: -25px;background-color: white;}
 .frog-plan .text{width: 558px;background-color: white;position: absolute;bottom: -45px;left: 80px;z-index: 100;padding: 36px 24px;box-sizing: border-box;}
 .frog-plan .text a h3{font-weight: initial;font-size: 13px;}
 .frog-plan .text a p{font-family: 'DM Serif Display', serif;font-size: 34px;margin-top: 10px;line-height: 33px;}
-footer{height: 500px;background-color: burlywood}
 /* frog-media */
 .frog-media{padding-top:65px;padding-bottom:102px;border-top: 1px solid #d5d5d5;position: relative;margin-top: 90px;}
 /* frog-media logo */
@@ -189,3 +188,9 @@ footer{height: 500px;background-color: burlywood}
 .announcements .download .an-box.download em{width:57%;float: right;margin-top: 0;line-height: 26px;font-size: 17px;}
 .bigo{position: absolute;top:0;left:0;opacity: 0.5;z-index:500}
 /* font-family: 'DM Serif Display', serif; */
+
+
+
+
+
+footer{height: 500px;background-color: burlywood}
